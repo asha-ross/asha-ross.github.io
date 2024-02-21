@@ -2,9 +2,11 @@ body {
   font-family: 'Ariel', monospace;
   color: black;
   background-color: rgb(238, 156, 118);
+  border: solid;
 }
 
-.about-me {
-  border: solid;
-  border-colour: black;
+.box-about-me {
+  border: 2px solid #333;
+  padding 20px;
+  margin 20px;
 }
