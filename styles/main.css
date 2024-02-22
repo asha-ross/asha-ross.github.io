@@ -6,6 +6,10 @@ body {
   margin: 40px;
 }
 
+.intro {
+  border: 3px solid black;
+}
+
 .box-about-me {
   font-family: 'Ariel', monospace;
   border: 2px solid #ad5900;
