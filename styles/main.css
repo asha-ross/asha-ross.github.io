@@ -25,16 +25,10 @@ body {
   max-width: 120px;
   padding: 20px;
   height: auto;
-  animation: spin 2s linear infinite;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.blog-posts {
+  font-family: Verdana, monospace;
 }
 
 .box-of-blogs {
@@ -44,4 +38,15 @@ body {
   padding: 40px;
   margin: 40px;
   max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
 }
