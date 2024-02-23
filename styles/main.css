@@ -22,9 +22,19 @@ body {
 }
 
 #frog {
-  max-width: 50px;
+  max-width: 120px;
   padding: 20px;
   height: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .box-of-blogs {
