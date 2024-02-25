@@ -1,19 +1,19 @@
 body {
-  font-family: 'Ariel', monospace;
+  font-family: Verdana, monospace;
   color: rgb(255, 255, 255);
-  border: 2px solid #087311;
+  border: 5px solid #087311;
   background-color: rgb(0, 0, 0);
   padding: 40px;
   margin: 40px;
 }
 
 .intro {
-  border: 3px solid black;
+  border: 5px solid rgb(3, 102, 26);
 }
 
 .about-me {
   font-family: 'Ariel', monospace;
-  border: 2px solid #087311;
+  border: 5px solid #087311;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   padding: 40px;
@@ -30,7 +30,7 @@ body {
 
 #books {
   max-width: 100px;
-  padding: 20px;
+  padding: auto;
   height: auto;
   margin: auto;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .box-of-blogs {
-  border: 2px solid #087311;
+  border: 5px solid #087311;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   padding: 40px;
