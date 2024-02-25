@@ -22,10 +22,24 @@ body {
 }
 
 #frog {
-  max-width: 120px;
+  max-width: 100px;
+  padding: auto;
+  height: auto;
+  margin: auto;
+}
+
+#books {
+  max-width: 100px;
   padding: 20px;
   height: auto;
   margin: auto;
+}
+
+#boat {
+  height: auto;
+  margin: auto;
+  padding: auto;
+  max-width: 100px;
 }
 
 .blog-posts {
