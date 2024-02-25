@@ -12,13 +12,12 @@ body {
 }
 
 .about-me {
-  font-family: 'Ariel', monospace;
+  font-family: Verdana, monospace;
   border: 5px solid #087311;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-  padding: 40px;
-  margin: 40px;
-  max-width: 400px;
+  padding: auto;
+  margin: auto;
 }
 
 #frog {
@@ -53,13 +52,16 @@ body {
   display: inline-block;
 }
 
+.container {
+  display: flex;
+}
+
 .box-of-blogs {
   border: 5px solid #087311;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  padding: 40px;
-  margin: 40px;
-  max-width: 400px;
+  padding: auto;
+  margin: auto;
 }
 
 @media (max-width: 600px) {
