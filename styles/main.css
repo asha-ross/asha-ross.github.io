@@ -59,6 +59,13 @@ body {
   max-width: 150px;
 }
 
+#armour {
+  height: auto;
+  margin: auto;
+  padding: auto;
+  max-width: 150px;
+}
+
 #box {
   flex: 1;
   width: auto;
