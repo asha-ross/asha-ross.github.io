@@ -7,14 +7,41 @@ body {
   margin: 30px;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: 100px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-p {
+  padding-right: 15px;
+  font-size: 16px;
+  width: 120px;
+}
+
 .card {
-  background-color: white;
-  padding: 10px;
+  background-color: wheat;
   border-radius: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   height: 100px;
+  gap: 15px;
   width: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .intro {
@@ -63,20 +90,6 @@ body {
   padding: auto;
   height: auto;
   margin: auto;
-}
-
-#boat {
-  height: auto;
-  margin: auto;
-  padding: auto;
-  max-width: 150px;
-}
-
-#armour {
-  height: auto;
-  margin: auto;
-  padding: auto;
-  max-width: 150px;
 }
 
 .box {
