@@ -83,7 +83,7 @@ a {
   max-height: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: right;
 }
 
 .box {
@@ -103,11 +103,6 @@ a {
 @media (max-width: 600px) {
   body {
     font-size: 14px;
-  }
-
-  .box,
-  .card {
-    flex-direction: column;
   }
 }
 
