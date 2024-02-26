@@ -30,7 +30,7 @@ a {
   background-color: wheat;
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   height: 100px;
   gap: 15px;
   width: 300px;
@@ -68,8 +68,6 @@ a {
   font-family: Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-  padding: 25px;
-  margin: 25px;
 }
 
 .container {
