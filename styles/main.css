@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, monospace;
+  font-family: Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   border: 5px solid #087311;
   background-color: rgb(0, 0, 0);
@@ -11,11 +11,29 @@ body {
   border: 5px solid rgb(3, 102, 26);
 }
 
+.blog-posts {
+  font-family: Helvetica, sans-serif;
+  padding: 25px;
+  margin: 25px;
+}
+
+.box-of-blogs {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  margin: 25px;
+}
+
 .about-me {
-  font-family: Verdana, monospace;
-  border: 5px solid #087311;
+  font-family: Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+  padding: 25px;
+  margin: 25px;
+}
+
+.container {
+  display: flex;
   padding: 25px;
   margin: 25px;
 }
@@ -41,31 +59,12 @@ body {
   max-width: 150px;
 }
 
-.blog-posts {
-  font-family: Verdana, monospace;
-  padding: 25px;
-  margin: 25px;
-}
-
 #box {
   flex: 1;
   width: auto;
   height: auto;
   margin: auto;
   display: inline-block;
-}
-
-.container {
-  display: flex;
-  padding: 25px;
-}
-
-.box-of-blogs {
-  border: 5px solid #087311;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  padding: 25px;
-  margin: 25px;
 }
 
 @media (max-width: 600px) {
