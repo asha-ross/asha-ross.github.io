@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
   color: rgb(255, 255, 255);
-  border: 5px solid #087311;
+  border: 5px solid #06380a;
   background-color: rgb(0, 0, 0);
   padding: 30px;
   margin: 30px;
@@ -18,6 +18,12 @@ img {
 a {
   text-decoration: none;
   color: #000;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 26px;
+  border: 3px solid #033d08;
 }
 
 .blog-p {
@@ -49,7 +55,7 @@ a {
 }
 
 .intro {
-  border: 5px solid #03661a;
+  border: 5px solid #04360f;
   display: flex;
   flex-direction: column;
   align-items: center;
