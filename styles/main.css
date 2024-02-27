@@ -84,6 +84,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: right;
+  border-radius: 50%;
 }
 
 .box {
