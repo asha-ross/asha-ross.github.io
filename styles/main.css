@@ -41,6 +41,10 @@ footer {
   font-family: Verdana;
 }
 
+.questionsList {
+  font-family: monospace;
+}
+
 .card {
   background-color: wheat;
   border-radius: 15px;
