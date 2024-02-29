@@ -33,6 +33,12 @@ h3 {
 }
 
 .aboutMeList {
+  font-family: monospace;
+}
+
+footer {
+  font-size: 10px;
+  font-family: Verdana;
 }
 
 .card {
