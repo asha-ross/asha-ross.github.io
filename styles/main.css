@@ -32,6 +32,16 @@ h3 {
   width: 120px;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3 {
+  flex: 1;
+}
+
 .aboutMeList {
   font-family: monospace;
 }
