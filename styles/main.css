@@ -44,8 +44,9 @@ h3 {
   flex: 1;
 }
 
-.aboutMeList {
+.list {
   font-family: monospace;
+  padding: 20px;
 }
 
 footer {
@@ -53,15 +54,11 @@ footer {
   font-family: Verdana;
 }
 
-.questionsList {
-  font-family: monospace;
-}
-
 .card {
   background-color: wheat;
   border-radius: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   height: 100px;
   width: 300px;
   gap: 15px;
