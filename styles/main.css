@@ -95,9 +95,21 @@ footer {
   padding: 15px;
 }
 
-.screenshot {
+.screenshot1 {
   height: 250px;
-  width: 250px;
+  width: 450px;
+  padding: 20px;
+}
+
+.screenshot2 {
+  height: 200px;
+  width: 650px;
+  padding: 20px;
+}
+
+.screenshot3 {
+  height: 150px;
+  width: 750px;
   padding: 20px;
 }
 
