@@ -21,7 +21,7 @@ a {
 }
 
 h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Helvetica, serif;
   font-size: 26px;
   border: 3px solid #033d08;
 }
@@ -45,13 +45,13 @@ h3 {
 }
 
 .list {
-  font-family: monospace;
+  font-family: Helvetica;
   padding: 20px;
 }
 
 footer {
   font-size: 10px;
-  font-family: Verdana;
+  font-family: Helvetica;
 }
 
 .card {
@@ -82,13 +82,13 @@ footer {
 }
 
 .blog-posts {
-  font-family: 'Helvetica', sans-serif;
+  font-family: Helvetica, sans-serif;
   padding: 25px;
   margin: 25px;
 }
 
 #about-me {
-  font-family: 'Helvetica', sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #fff;
   background-color: #000;
   padding: 15px;
