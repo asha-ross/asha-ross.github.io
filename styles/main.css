@@ -95,6 +95,12 @@ footer {
   padding: 15px;
 }
 
+.screenshot {
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+
 .container {
   display: flex;
   padding: 25px;
