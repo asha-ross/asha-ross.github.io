@@ -7,10 +7,55 @@
   </head>
 
   <body>
-    <h1>Relative, Absolute, and Fixed Positioning</h1>
-    <p>
-      Relative, absolute, and fixed positioning are three types of positioning
-      in CSS that defines how an HTML element is positioned within the document.
-    </p>
+    <div>
+      <h1><strong>Best Practice for Classes and Id</strong></h1>
+      <p>What are the best practices for using classes and ids?</p>
+      <br />
+      <p>
+        Classes and ids are used to apply something specific to an element.
+        <br />
+        This could be a style (font, colour, border, padding, and the list goes
+        on), or another trait.
+        <img
+          alt="a screenshot of class styles"
+          src="./assets/class style examples.png"
+        />
+      </p>
+      <br />
+      <p>
+        <strong>What is a class?</strong>
+        A class is a way to add a specific trait to multiple elements.
+      </p>
+      <p>
+        Best practice for using "class" is when you are applying a trait that
+        can be used by multiple elements. CSS relies on classes to maintain
+        consistency throughout your document and across the styling. Typically
+        all styling is done using classes, in an effort to maintain consistency
+        at scale as well as within the page.
+      </p>
+      <img
+        alt="a screenshot of class example"
+        src="./assets/class container.png"
+      />
+      <p>
+        In CSS, you would target a class by using " . ", for example: .class
+      </p>
+      <br />
+      <p>
+        <strong>What is an Id?</strong>
+        An id is a way to add a specific trait to a specific element.
+      </p>
+      <p>
+        Best practice for ids is for that specific element (used once per
+        document). Additionally, best practice suggests avoiding styling
+        directly with an id, and instead using ids for more specific JavaScript
+        information.
+      </p>
+      <img alt="a screenshot of an id example" src="./assets/id books.png" />
+      <p>
+        Following this best practice means your code will be more elegant and
+        readable, as well as more manageable.
+      </p>
+    </div>
   </body>
 </html>
