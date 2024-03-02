@@ -40,7 +40,8 @@ h3 {
 
 .box1,
 .box2,
-.box3 {
+.box3,
+.box4 {
   flex: 1;
 }
 
