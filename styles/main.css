@@ -73,6 +73,14 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .intro {
