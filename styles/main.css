@@ -23,7 +23,6 @@ a {
 h3 {
   font-family: Helvetica, serif;
   font-size: 26px;
-  border: 3px solid #033d08;
 }
 
 .blog-p {
@@ -48,6 +47,7 @@ h3 {
 .list {
   font-family: Helvetica;
   padding: 20px;
+  display: flex;
 }
 
 footer {
