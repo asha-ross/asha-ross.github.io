@@ -20,7 +20,8 @@ a {
   color: #000;
 }
 
-h3 {
+h3,
+h2 {
   font-family: Helvetica, serif;
   font-size: 26px;
 }
@@ -35,6 +36,8 @@ h3 {
   display: flex;
   margin: 20px;
   padding: 20px;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .box1,
@@ -74,6 +77,8 @@ footer {
   flex-direction: column;
   gap: 15px;
   max-width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 @media only screen and (max-width: 600px) {
