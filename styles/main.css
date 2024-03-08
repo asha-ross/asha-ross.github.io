@@ -30,14 +30,6 @@ h2 {
   width: 120px;
 }
 
-.flex-container {
-  display: flex;
-  margin: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
 .box1,
 .box2,
 .box3,
