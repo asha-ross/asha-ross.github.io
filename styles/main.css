@@ -124,6 +124,26 @@ footer {
   padding: 20px;
 }
 
+#library {
+  height: 300px;
+  width: 200px;
+}
+
+#screenshot-object {
+  height: 250px;
+  width: 250px;
+}
+
+#screenshot-array {
+  height: 150px;
+  width: 400px;
+}
+
+#screenshot-access-object {
+  height: 400px;
+  width: 200px;
+}
+
 .container {
   display: flex;
   padding: 25px;
