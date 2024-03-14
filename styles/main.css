@@ -134,6 +134,16 @@ footer {
   width: 250px;
 }
 
+#screenshot-element {
+  height: 125px;
+  width: 400px;
+}
+
+#screenshot-function {
+  height: 350px;
+  width: 500px;
+}
+
 #screenshot-array {
   height: 100px;
   width: 450px;
