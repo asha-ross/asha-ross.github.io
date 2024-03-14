@@ -125,18 +125,33 @@
         An example of a Function (including comments)
       </figcaption>
     </figure>
-    <p>Functions are one of the foundations of Javascript. They allow you to make a particular thing happen within the code. 
-      Moreover, they provide the modular structure that is so useful about Javascript: you can ensure your code is strong, elegant, and reliable through creating modular functions that can be reused throughout your code.
-      Functions perform a specific task, and because you can reuse them throughout your code, you can enhance functionality through reducing redundancy. This is particularly important when your code becomes more complex.
+    <p>Functions are one of the foundations of Javascript. They perform tasks.
+      Moreover, functions provide the modular structure that is so useful to Javascript. You can ensure your code is strong, elegant, and reliable through creating modular components that can be reused.
+      Functions perform a specific task. Because you can reuse them throughout your code, you can enhance functionality through reducing redundancy. This is particularly important when your code becomes more complex.
       <br>
-      Functions require simple understanding: when thinking about functionality, you think about what it has to do.
+      To be effective with declaring a function, you need to think simply about <i>what it has to do</i>.
       <br>
-      For a function to work you define that function (using a simple and clear naming convention that explains what that function does), 
-      then you identify its parameters (which are essentially placeholders for specific values that will be inserted when the function is used). 
+      In the following example, the function is checking through a list of products to see if the stock is at 0. 
+      If it is, the function triggers a following function that will restock those products.
+      <figure class="image-container">
+        <img
+        id="screenshot-function-example2"
+          src="../assets/screenshot-function-example2.png"
+          alt="a screenshot of a second example of a function"
+        />
+        <figcaption class="image-caption">
+          An example of a function that restocks products if the stock number is at 0
+        </figcaption>
+      </figure>
       <br>
-      Within the function, you identify what the function should do, and possibly add in its 'return', which dictates an output once the function is called. 
+      Functions require simple and clear naming conventions (these should explain what that function does--as above, the function name is "restock"). 
+      The parameters of the function are placeholders for specific values that will be inserted when the function is called. 
+      <br>
+      Within the function, you identify what the function should do (as above, the function checks if the product === (exactly equals) 0).
       <br>
       At any point in your code once this function has been defined, you are able to call that function so the defined action (and output) happens.
+      <br>
+      Though functions can certainly seem complex, particularly once you start adding loops, conditionals, and so forth, but they are an essential structure to working in Javascript and henceforth worth the effort in learning to use them.
     </p>
   </body>
 </html>
