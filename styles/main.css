@@ -127,6 +127,11 @@ footer {
 #library {
   height: 400px;
   width: 250px;
+  display: inline-block;
+}
+
+.box-of-words {
+  display: flexbox;
 }
 
 #screenshot-object {
