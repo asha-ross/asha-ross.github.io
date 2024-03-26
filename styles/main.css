@@ -28,6 +28,13 @@ h2 {
   width: 120px;
 }
 
+.img-card {
+  max-height: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
 .question {
   font-size: 1.2em;
   font-weight: bold;
@@ -56,9 +63,59 @@ h2 {
   display: flex;
 }
 
+.card-grid {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paragraph-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.paragraph-title {
+  border: 3px solid transparent;
+  transition: border 0.3s ease;
+  max-width: 400px;
+  margin: 10px;
+  font-size: larger;
+  font-family: fantasy;
+  cursor: pointer;
+}
+
+.paragraph-card {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  overflow-y: auto;
+}
+
+.paragraph-title:hover .paragraph-card {
+  max-height: 750px;
+}
+
+.paragraph-title:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  background-color: rgba(210, 124, 12, 0.873);
+  border-color: #ff0000;
+}
+
 footer {
   font-size: 10px;
   font-family: Helvetica;
+}
+
+.container {
+  display: flex;
+  padding: 25px;
+  margin: 25px;
 }
 
 .card {
@@ -85,19 +142,27 @@ footer {
   align-content: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .card-container {
-    width: 100%;
-    margin: 0;
-  }
-}
-
 .intro {
   border: 5px solid #04360f;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 15px;
+}
+
+.title {
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid #333;
+  padding: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.title:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .blog-posts {
@@ -164,12 +229,6 @@ footer {
   width: 525px;
 }
 
-.container {
-  display: flex;
-  padding: 25px;
-  margin: 25px;
-}
-
 #about-me {
   font-weight: bold;
 }
@@ -181,6 +240,13 @@ footer {
   flex-direction: row;
   align-items: right;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media only screen and (min-width: 320px) {
