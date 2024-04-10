@@ -168,5 +168,36 @@
         </p>
       </div>
     </div>
+    <script>
+      let modals = document.querySelectorAll('.modal')
+      let buttons = document.querySelectorAll('.myBtn')
+      let spans = document.querySelectorAll('.close')
+
+      function openModal() {
+        let modal = this.nextElementSibling
+        modal.style.display = 'block'
+      }
+
+      function closeModal() {
+        let modal = this.parentNode
+        modal.style.display = 'none'
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', openModal)
+      })
+
+      spans.forEach((span) => {
+        span.addEventListener('click', closeModal)
+      })
+
+      window.onclick = function (event) {
+        modals.forEach((modal) => {
+          if (event.target == modal) {
+            modal.style.display = 'none'
+          }
+        })
+      }
+    </script>
   </body>
 </html>
