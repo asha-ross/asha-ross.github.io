@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Foundations Reflections</title>
+  </head>
+  <body>
+    <h1 class="title">Reflecting on Foundations</h1>
+
+    <div class="card-grid">
+      <div class="paragraph-card-container">
+        <button class="myBtn">
+          <strong>Core Learning</strong>
+          <img
+            class="img-card"
+            alt="two dogs interacting, one with paw on the other's face"
+            src="../assets/IMG_0780.JPG"
+          />
+        </button>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+              What are three new things you have learnt about yourself and your
+              ego due to the core learning? What has surprised you the most
+              about the core learning? What were the most challenging aspects of
+              the core learning?
+              <br />
+            </p>
+          </div>
+        </div>
+
+        <button class="myBtn">
+          <strong>Values, Empathy, and Self-Awareness</strong>
+          <img
+            class="img-card"
+            alt="two iguanas, one sitting on the other's head"
+            src="../assets/IMG_2473.JPG"
+          />
+        </button>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+              What are the role of values, empathy, and self-awareness in
+              learning and programming?
+            </p>
+          </div>
+        </div>
+
+        <button class="myBtn">
+          <strong>Core learning in Programming</strong>
+          <img
+            class="img-card"
+            alt="two iguanas, one sitting on the other's head"
+            src="../assets/IMG_2473.JPG"
+          />
+        </button>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+              Why do you think we, a programming school, are spending so much
+              time focusing on core learning in a web development Bootcamp
+              course? Does the time you spent studying core learning here feel
+              like a waste of time? Should you have just used that time to
+              practise programming instead? Justify your answer.
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let modals = document.querySelectorAll('.modal')
+      let buttons = document.querySelectorAll('.myBtn')
+      let spans = document.querySelectorAll('.close')
+
+      function openModal() {
+        let modal = this.nextElementSibling
+        modal.style.display = 'block'
+      }
+
+      function closeModal() {
+        let modal = this.parentNode
+        modal.style.display = 'none'
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', openModal)
+      })
+
+      spans.forEach((span) => {
+        span.addEventListener('click', closeModal)
+      })
+
+      window.onclick = function (event) {
+        modals.forEach((modal) => {
+          if (event.target == modal) {
+            modal.style.display = 'none'
+          }
+        })
+      }
+    </script>
+  </body>
+</html>
