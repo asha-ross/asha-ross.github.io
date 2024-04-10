@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
   color: rgb(0, 0, 0);
-  background-color: wheat;
+  background-color: bisque;
 }
 
 img {
@@ -74,15 +74,15 @@ h2 {
 }
 
 .myBtn {
-background-color: wheat;
-font-size: larger;
-display: flex;
-flex-direction: column;
+  background-color: bisque;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal {
   display: none;
-  position: fixed; 
+  position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
@@ -101,7 +101,7 @@ flex-direction: column;
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: wheat;
+  background-color: bisque;
   margin: 15% auto;
   padding: 20px;
   border: 2px solid #000000;
@@ -137,7 +137,7 @@ flex-direction: column;
 .title:hover {
   background-color: #333;
   color: #fff;
-} 
+}
 
 footer {
   font-size: 10px;
@@ -151,7 +151,7 @@ footer {
 }
 
 .card {
-  background-color: wheat;
+  background-color: bisque;
   border: 3px solid black;
   border-radius: 15px;
   display: flex;
@@ -287,41 +287,3 @@ footer {
     font-size: 16px;
   }
 }
-
-/* 
-
-
-/* 
-.paragraph-title {
-  border: 3px solid transparent;
-  transition: border 0.3s ease;
-  max-width: 450px;
-  margin: 20px;
-  font-size: x-large;
-  font-family: fantasy;
-  cursor: pointer;
-} */ */
-
-/* .paragraph-card {
-  font-size: medium;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  max-height: 0;
-  max-width: 500px;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  overflow-y: auto;
-  justify-content: center;
-}
-
-.paragraph-title:hover .paragraph-card {
-  max-height: 600px;
-} */
-
-/* .paragraph-title:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  opacity: 0.8;
-  background-color: rgba(210, 124, 12, 0.873);
-  border: 4px solid;
-  border-color: #000000;
-  max-width: 1000px;
-} */
